@@ -265,5 +265,5 @@ door = DoorSprite(g, PhotoImage(file = 'door1.gif'), 45, 30, 40, 35)
 g.sprites.append(door)
 sf = StickFigureSprite(g)
 g.sprites.append(sf)
-g..mainloop()
+g.mainloop()
 
